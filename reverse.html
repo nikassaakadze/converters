@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>.slick-slider{position:relative;display:block;-moz-box-sizing:border-box;box-sizing:border-box;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-touch-callout:none;-khtml-user-select:none;-ms-touch-action:pan-y;touch-action:pan-y;-webkit-tap-highlight-color:transparent}.slick-list{position:relative;display:block;overflow:hidden;margin:0;padding:0}.slick-list:focus{outline:0}.slick-list.dragging{cursor:pointer;cursor:hand}.slick-slider .slick-list,.slick-slider .slick-track{-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);-o-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}.slick-track{position:relative;top:0;left:0;display:block}.slick-track:after,.slick-track:before{display:table;content:""}.slick-track:after{clear:both}.slick-loading .slick-track{visibility:hidden}.slick-slide{display:none;float:left;height:100%;min-height:1px}[dir=rtl] .slick-slide{float:right}.slick-slide img{display:block}.slick-slide.slick-loading img{display:none}.slick-slide.dragging img{pointer-events:none}.slick-initialized .slick-slide{display:block}.slick-loading .slick-slide{visibility:hidden}.slick-vertical .slick-slide{display:block;height:auto;border:1px solid transparent}.slick-arrow.slick-hidden{display:none}.slick-next,.slick-prev{font-size:0;line-height:0;position:absolute;top:50%;display:block;width:20px;height:20px;margin-top:-10px;padding:0;cursor:pointer;color:transparent;border:0;outline:0;background:0 0}.slick-next:focus,.slick-next:hover,.slick-prev:focus,.slick-prev:hover{color:transparent;outline:0;background:0 0}.slick-next:focus:before,.slick-next:hover:before,.slick-prev:focus:before,.slick-prev:hover:before{opacity:1}.slick-next.slick-disabled:before,.slick-prev.slick-disabled:before{opacity:.25}.slick-next:before,.slick-prev:before{font-family:slick;font-size:20px;line-height:1;opacity:.75;color:#fff;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.slick-prev{left:-25px}[dir=rtl] .slick-prev{right:-25px;left:auto}.slick-prev:before{content:url(../static/icons/previous.png)}[dir=rtl] .slick-prev:before{content:"→"}.slick-next{right:-25px}[dir=rtl] .slick-next{right:auto;left:-25px}.slick-next:before{content:url(../static/icons/next.png)}[dir=rtl] .slick-next:before{content:"←"}.slick-slider{margin-bottom:30px}.slick-dots{position:absolute;bottom:-45px;display:block;width:100%;padding:0;list-style:none;text-align:center}.slick-dots li{position:relative;display:inline-block;width:20px;height:20px;margin:0 5px;padding:0;cursor:pointer}.slick-dots li button{font-size:0;line-height:0;display:block;width:20px;height:20px;padding:5px;cursor:pointer;color:transparent;border:0;outline:0;background:0 0}.slick-dots li button:focus,.slick-dots li button:hover{outline:0}.slick-dots li button:focus:before,.slick-dots li button:hover:before{opacity:1}.slick-dots li button:before{font-family:slick;font-size:6px;line-height:20px;position:absolute;top:0;left:0;width:20px;height:20px;content:"•";text-align:center;opacity:.25;color:#000;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.slick-dots li.slick-active button:before{opacity:.75;color:#000}</style>
+  <style>@font-face{font-family:QS;src:url(static/fonts/Quicksand-Medium.ttf)}*{margin:0;padding:0;-webkit-box-sizing:border-box;box-sizing:border-box;font-family:QS}button.textarea,input,select{outline:0!important}a,li{text-decoration:none;list-style:none;display:inline-block}body{background-color:#f1faee}header{position:-webkit-sticky;position:sticky;top:0;z-index:1000;background-color:#e63946}header .header-inner{width:90%;margin:auto;padding:30px 15px}header .header-inner .header-logo{width:-webkit-fit-content;width:-moz-fit-content;width:fit-content;margin:auto}header .header-inner .header-logo h3{color:#fff}.options-carousell{width:100%;border-bottom:1px solid #cecece;padding:15px 0}.options-carousell .carousel{width:90%;margin:0 auto}.options-carousell .carousel .option-btn{width:100%;cursor:pointer}.options-carousell .carousel .option-btn button{height:60px;width:100%;padding:0 10px;border:none;border-radius:5px;font-size:16px;background-color:#fff;-webkit-box-shadow:rgba(0,0,0,.25) 0 .0625em .0625em,rgba(0,0,0,.25) 0 .125em .5em,rgba(255,255,255,.1) 0 0 0 1px inset;box-shadow:rgba(0,0,0,.25) 0 .0625em .0625em,rgba(0,0,0,.25) 0 .125em .5em,rgba(255,255,255,.1) 0 0 0 1px inset}.options-carousell .slick-slide{margin:10px}#notepad{min-height:600px!important}.process .process-name{width:90%;margin:auto;padding:15px 0 30px 0;text-align:center}.process-inner{width:90%;margin:auto;padding:15px;border:1px solid #cecece;border-radius:10px;margin-top:50px;background-color:rgba(248,248,248,.301)}.process-inner-active textarea,.process-inner-result textarea{width:100%;padding:15px;max-width:100%;min-width:50%;max-height:300px;min-height:250px;border-radius:5px;border:1px solid #cecece;background:#fff;font-size:20px}.process-inner-active .process-activity,.process-inner-result .process-activity{width:100%;background-color:#f3f1f1;padding:10px;border-radius:10px}.process-inner-active .process-activity :first-child,.process-inner-result .process-activity :first-child{margin-left:0}.process-inner-active .process-activity button,.process-inner-result .process-activity button{margin-left:20px;padding:15px 10px;cursor:pointer;background-color:#fff;border:none;border-radius:5px;-webkit-box-shadow:rgba(0,0,0,.25) 0 .0625em .0625em,rgba(0,0,0,.25) 0 .125em .5em,rgba(255,255,255,.1) 0 0 0 1px inset;box-shadow:rgba(0,0,0,.25) 0 .0625em .0625em,rgba(0,0,0,.25) 0 .125em .5em,rgba(255,255,255,.1) 0 0 0 1px inset}.process-inner-result{margin-top:50px!important}.spacing{letter-spacing:3px}.about-inner{width:90%;margin:100px auto;padding:15px}.about-inner-headline{width:100%;text-align:center}.about-inner .about-body p{font-size:20px;margin-top:20px;line-height:1.5;text-align:justify}.about-inner .about-body .start::first-letter{font-size:100px;float:left;line-height:.8;font-weight:bolder;color:#e63946;padding-right:20px}.active{background-color:#e63946!important;color:#fff}.lnth{text-decoration:line-through}footer{background-color:#e63946}footer .footer-inner{width:90%;margin:auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;padding:20px}footer .footer-inner ul :first-child{margin-left:0}footer .footer-inner ul li{margin-left:20px}footer .footer-inner ul li a{color:#fff}footer .footer-inner span{color:#fff}@media screen and (max-width:700px){*{font-size:inherit!important}.process-inner{width:100%!important}.options-carousell .carousel{width:70%!important}.process-inner-active .process-activity,.process-inner-result .process-activity{display:-webkit-box;display:-ms-flexbox;display:flex}.process-inner-active .process-activity button,.process-inner-result .process-activity button{padding:4px;font-size:13px!important}.about-inner{width:100%!important}footer .footer-inner{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;width:100%!important}footer .footer-inner ul{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;text-align:center;line-height:1.5}footer .footer-inner span{padding:20px 0}}.rot{-webkit-transform:rotate(180deg);transform:rotate(180deg)}.bold{font-weight:bolder}.italic{font-style:italic}</style>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <div class="header-logo">
+        <a href="./index.html"><h3>LOGO</h3></a>
+      </div>
+    </div>
+  </header>
+  <section class="options-carousell">
+    <div class="carousel">
+      <div class="option-btn">
+        <a href="./index.html"><button>Convert Case</button></a>
+      </div>
+      <div class="option-btn">
+        <a href="./strikethrough-text-generator.html"><button>Strikethrough Text Generator</button></a>
+      </div>
+      <div class="option-btn">
+        <a href="./reverse.html"><button class="active">Reverse Text Generator</button></a>
+      </div>
+      <div class="option-btn">
+        <a href="./upside-down.html"><button>Upside Down Text Generator</button></a>
+      </div>
+      <div class="option-btn">
+        <a href="./morse-converter.html"> <button >Morse Code Translator</button></a>
+      </div>
+      <div class="option-btn">
+        <a href="./binary-converter.html"> <button>Binary Code Translator</button></a>
+      </div>
+      <div class="option-btn">
+        <a href="./wide-text.html"><button>Wide Text Generator</button></a>
+      </div>
+      <div class="option-btn">
+        <a href="./bold-text-generator.html"><button>Bold Text Generator</button></a>
+      </div>
+      <div class="option-btn">
+        <a href="./italic-text.html"><button>Italic Text Converter</button></a>
+      </div>
+      <div class="option-btn">
+        <a href="./underline-text.html"> <button>Underline Text Generator</button></a>
+      </div>
+      <div class="option-btn">
+        <a href="./mirror-text.html"><button>Mirror Text Generator</button></a>
+      </div>
+      <div class="option-btn">
+        <a href="./unicode-generator.html"><button >Unicode Text Converter</button></a>
+      </div>
+      <div class="option-btn">
+        <a href="./zalgo-glitch.html"><button>Zalgo glitch Text Generator</button></a>
+      </div>
+      <div class="option-btn">
+       <a href="./online-notepad.html"> <button >Online Notepad</button></a>
+      </div>
+    </div>
+  </section>
+  <section class="process">
+    <div class="process-inner">
+			<div class="process-name"><h1>Reverse text</h1></div>
+			<div class="process-inner-result">
+        <textarea name="" id="in" cols="30" rows="10" placeholder="Result..."></textarea>
+        <div class="process-activity">
+					<p id="result"> </p>
+					<button class="reverse">Reverse</button>
+					<button id="saveFile" class="download">Download</button>
+          <button class="copy">Copy to clipboard</button>
+        </div>
+			</div>
+    </div>
+  </section>
+  <section class="about">
+    <div class="about-inner">
+      <div class="about-inner-headline">
+        <h1>Here is title</h1>
+      </div>
+      <div class="about-body">
+        <p class="start">Donec venenatis malesuada diam in placerat. Cras interdum metus vel felis eleifend ultrices nec nec tortor. Nullam rutrum fringilla ultricies. Aliquam erat volutpat. Praesent mauris ligula, faucibus ut pharetra sit amet, consectetur id ligula. Quisque quam tellus, consectetur non ex non, vestibulum consectetur arcu. Fusce sit amet libero quis odio ullamcorper viverra. Aliquam et eros vel ipsum hendrerit feugiat placerat ac orci. Quisque pretium feugiat venenatis. Suspendisse eget tortor nisl.</p>
+        <p>Suspendisse pretium molestie tellus id pulvinar. Vestibulum sed neque a odio vestibulum dictum vitae non nunc. Morbi at nisi ut ipsum blandit finibus. Nam lacinia euismod commodo. Suspendisse pharetra mattis leo, tempus fermentum lacus rhoncus id. Quisque non ornare ligula, sit amet blandit nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas pharetra ac metus id lacinia. Aenean egestas eu est a suscipit. Nullam non lobortis est. Aliquam sit amet elementum magna, eu scelerisque urna. Cras posuere lacus vel mi convallis, nec dictum lectus varius. Mauris non tincidunt risus, eu rhoncus sapien. Sed aliquam, sapien vel blandit placerat, magna ligula condimentum est, vel sollicitudin nibh nibh vitae massa.</p>
+        <p>Nam risus velit, dictum et urna vitae, eleifend hendrerit elit. Nullam sit amet pretium augue, a scelerisque enim. Fusce sit amet tristique ligula, eu consequat mauris. Nullam sit amet placerat orci, in dapibus purus. Pellentesque mauris ipsum, rhoncus non blandit et, dignissim ac augue. Nulla nec convallis ipsum. Ut purus nulla, accumsan euismod nunc luctus, feugiat pretium mauris. Vivamus quis urna venenatis, blandit augue eu, fringilla elit. Nulla at ipsum tincidunt, commodo mauris eget, bibendum eros. Curabitur mi lacus, interdum at eleifend ac, elementum quis ipsum. Vivamus rutrum, mauris non accumsan rutrum, erat ipsum sodales odio, id consequat arcu nunc sit amet nibh. Sed laoreet ex in urna fringilla euismod. Morbi mollis arcu in tellus tincidunt, a malesuada mi feugiat. Sed lobortis felis elit, at dapibus diam elementum et. Donec non efficitur ipsum, vitae imperdiet nibh.</p>
+        <p>Cras eget ante massa. Donec nec maximus justo. Nullam placerat ultrices eros id rutrum. Duis scelerisque fermentum felis, sit amet commodo tortor dignissim vel. Aenean eu consequat lorem. Proin eget placerat ante, nec gravida dolor. Duis nec ornare arcu, ut porttitor ante. Mauris vestibulum nibh nec libero luctus, quis ultrices odio placerat. Duis tincidunt at elit at consectetur. Nulla ut ex a nisi cursus mollis ut eu lectus. Praesent tristique imperdiet orci, vitae luctus turpis dapibus at. Fusce aliquet odio.</p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="footer-inner">
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Help</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="">Terms of use</a></li>
+        <li><a href="">Privancy policy</a></li>
+      </ul>
+      <span id="curr-year"></span>
+    </div>
+  </footer>
+  <script src="./js/jQuery.js"></script>
+  <script src="./js/slick.js"></script>
+  <script>
+    var downName = $("")
+    var downloadFile=function(){var e=document.createElement("a");return document.body.appendChild(e),e.style="display: none",function(){var t=document.getElementById("in").value,n=new Blob([t],{type:"octet/stream"}),d=window.URL.createObjectURL(n);e.href=d,e.download="reversed-text",e.click(),window.URL.revokeObjectURL(d)}}();document.getElementById("saveFile").addEventListener("click",downloadFile,!1);
+  </script>
+	<script>$(".reverse").on("click",()=>{var e=$("#in").val(),n="",c=e.length-1;for(i=c;i>-1;i--){e.charAt(i);n+=e[i]}document.getElementById("in").value=n}),$(".copy").on("click",()=>{var e=document.getElementById("in");e.select(),e.setSelectionRange(0,99999),document.execCommand("copy")});</script>
+  <script>var d=new Date,n=d.getFullYear();document.getElementById("curr-year").innerHTML="Copyright "+n+" All rights Reserved";</script>
+  <script>$(".carousel").slick({slidesToShow:10,slidesToScroll:5,dots:!1,infinite:!0,focusOnSelect:!1,centerMode:!1,autoplay:!1,responsive:[{breakpoint:1024,settings:{slidesToShow:3,slidesToScroll:3,infinite:!0,dots:!0}},{breakpoint:600,settings:{slidesToShow:2,slidesToScroll:2}},{breakpoint:480,settings:{slidesToShow:1,slidesToScroll:1}}]});</script>
+</body>
+</html>
